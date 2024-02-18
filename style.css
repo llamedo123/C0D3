@@ -89,12 +89,12 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: linear-gradient(to top, red 0%, yellow 120%);
+    background: linear-gradient(to top, rgb(245, 58, 33) 0%, rgb(246, 250, 18) 120%);
     color: white;
 }
 .button:hover
 {
-    background: linear-gradient(to top, yellow 0%, red 120%);
+    background: linear-gradient(to top, rgb(246, 250, 18) 0%, rgb(245, 58, 33)100%);
     transition: all 0.1s ease;
 }
 .navbar__links:hover
@@ -215,3 +215,32 @@
 }
 
 /* THIS IS HERO SECTION CSS */
+.main
+{
+    background-color: #141414;
+}
+.main__container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 90vh;
+    background-color: #141414;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+.main__content h1
+{
+    font-size: 4rem;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #eb2424 0%, #ffae00 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
