@@ -244,3 +244,27 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
+
+.main__content h2
+{
+    font-size: 3rem;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #f815f8 0%, #ff2969 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent; 
+}
+
+.main__content p
+{
+    font-size: 1.5rem;
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #78ff2a 0%, #dff519 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent; 
+}
