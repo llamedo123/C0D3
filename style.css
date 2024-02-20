@@ -249,7 +249,7 @@
 {
     font-size: 3rem;
     background-color: #ff8177;
-    background-image: linear-gradient(to top, #f815f8 0%, #ff2969 100%);
+    background-image: linear-gradient(to top, #a51ef3 0%, #2efcfc 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -259,12 +259,54 @@
 
 .main__content p
 {
-    font-size: 1.5rem;
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #78ff2a 0%, #dff519 100%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent; 
+    margin-bottom: none;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: white;
+}
+
+.main__btn
+{
+    font-size: 1rem;
+    background-image: linear-gradient(to top, #eb2424 0%, #ffae00 100%);
+    padding: 14px 32px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+}
+
+.main__btn a
+{
+    position: relative;
+    z-index: 2;
+    text-decoration: none;
+    color: white;
+}
+
+.main__btn:after 
+{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    transition: all 0.35s;
+    background: #2efcfc;
+    border-radius: 4px;
+}
+
+.main__btn:hover
+{
+    color: white;
+}
+
+.main__btn:hover:after
+{
+    width: 100%;
 }
